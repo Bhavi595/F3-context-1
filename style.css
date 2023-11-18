@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* mean section css */
+#MainSection {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1d1d23;
+}
+
+
+/* timer section csss */
+#timetaker {
+  background-color: #34344a;
+  width: 800px;
+  display: flex;
+  border-radius: 20px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
+
+
+#Set-time-btn{
+width: 124px;
+height: 52px;
+border-radius: 26px;
+background-color: #F0F757;
+font-weight: 500;
+}
+
+.hour,.mint,.sec{
+    background-color:#34344a;
+    border: none;
+    color: white;
+    width: 70px;
+    font-size: 35px;
+    height: 52px;
+    text-align: center;
+    margin-left:10px ;
+    
+
+}
+label{
+    color: white;
+    font-size: 45px;
+}
+/* heading 1 css */
+
+.Heading {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+/* heading 2 css */
+
+.heading2 {
+    background-color: #39393e;
+    width: 413px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+  }
+  
+/* heading 3 css */
+
+.heading3{
+    color: white;
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+::placeholder{
+    color:white;
+}
+
+/* heading 4 css */
+
+.heading4{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+/* all timer div css */
+#All-Timer-Box{
+    width: 840px;
+    /* background-color: white; */
+    height:50%;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+
+  display: none;
+}
+
+.Timertext{
+  color: white;
+  font-size: 36px;
+}
